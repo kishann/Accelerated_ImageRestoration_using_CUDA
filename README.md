@@ -1,7 +1,7 @@
 
 # Accelerated Image Restoration using CUDA
 
-This software application is a performant image restoration filter to leverages parallelization capabilities in C++ and CUDA to do the operation of deblurring images faster than the out-of-the-box OpenCV deblur filter. This is achieved by replacing most of the inbuilt library functions with optimized loop constructs and leveraging enhanced native language capabilities. The performance analysis indicates that the computation time for image restoration is reduced by 62.13% compared to using the OpenCV standard restoration filter. This gain in performance is verified by checking for similarity of correctness in the Peak Signal to Noise Ratio(PSNR) and Mean Squared Error(MSE) computed between the original and restored image for each of the implementations. The complete report with performance analysis and results is showcased [here](https://github.com/kishan92/Accelerated_ImageRestoration_using_CUDA/blob/main/Accelerated_ImageRestoration_using_CUDA.pdf).
+This software application is a performant image restoration filter that leverages parallelization capabilities in C++ and CUDA to perform the operation of deblurring images faster than the out-of-the-box OpenCV deblur filter. This is achieved by replacing most of the built-in library functions with optimized loop constructs and leveraging enhanced native language capabilities. The performance analysis indicates that the computation time for image restoration is reduced by 62.13% compared to using the OpenCV standard restoration filter. This gain in performance is verified by checking for similarity in the Peak Signal to Noise Ratio (PSNR) and Mean Squared Error (MSE) computed between the original and restored image for each of the implementations. The complete report with performance analysis and results is showcased [here](https://github.com/kishan92/Accelerated_ImageRestoration_using_CUDA/blob/main/Accelerated_ImageRestoration_using_CUDA.pdf).
 
 
 ## Hardware Specification
@@ -40,7 +40,7 @@ This software application is a performant image restoration filter to leverages 
 
 ## Instructions to Compile and Execute
 
-- Add the path of a high-quality input(.png) images to the imread method in each of the .cu and .cpp implementations
+- Add the path of a high-quality input(.png) image to the imread method in each of the .cu and .cpp implementations
 - The program findbestparams.cpp helps find the optimal values of R and SNR for the point spread function that is used to enhance the quality of image restoration.
 
 - Use the following command to run findbestparams.cpp
