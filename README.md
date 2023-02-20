@@ -79,6 +79,6 @@ nsys profile --stats=true --force-overwrite true --show-output true ./program
 
 ## Authors
 
-- [@kishan92](https://github.com/kishan92)
+- [@kishann](https://github.com/kishann)
 - [LinkedIn](https://www.linkedin.com/in/kishan-nagendra-profile/)
 
